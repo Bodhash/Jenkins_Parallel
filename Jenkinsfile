@@ -10,7 +10,7 @@ Pipeline
      {stage ('execute unit test')
        {steps {sh 'echo execute_unit_test'}} 
 
-      stage ('execute component test')}
+      {stage ('execute component test')
        {steps {sh 'echo execute_unit_test' }}     
     }
    }
